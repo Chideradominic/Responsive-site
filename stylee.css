@@ -1,0 +1,267 @@
+*, *::before, *::after{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+.container{
+  width: 80%;
+  margin: 0 auto;
+}
+.header{
+  width: 50%;
+  margin: auto;
+  text-align: center;
+}
+nav{
+  background-color:#2E323F;
+  padding: 2em 0;
+  position: relative;
+
+}
+
+.nav__list--btn{
+  padding: 0.7em;
+  border-radius: 50%;
+  position: absolute;
+  border: none;
+  left: 10%;
+}
+.nav__list--btn:hover,
+.nav__list--btn:focus{
+  cursor: pointer;
+  opacity: 0.7;
+}
+li{
+  list-style-type: none;
+  margin-bottom: 1em;
+}
+a{
+  text-decoration: none;
+}
+.nav__list--primary{
+  margin-top: 20px;
+}
+.nav__items{
+  text-decoration: none;
+  color: #fff;
+}
+.nav__list--all{
+  display: none;
+}
+.nav__list--all.visible{
+  display: block;
+  font-family: "Oswald", sans-serif;
+  font-weight: bold;
+}
+.logo{
+  margin-bottom: 30px;
+}
+
+img{
+  width: 300px;
+}
+.nav__items--btn{
+  background-color: #fff;
+  padding: 1em;
+  border-radius: 100px;
+  color: #2E323F;
+  
+ 
+}
+.nav__items:hover,
+.nav__items:focus{
+  opacity: 0.7;
+}
+.hero{
+  background-color: #3B4050;
+  padding: 3em 0;
+}
+.hero__title{
+  color: #fff;
+  font-family: "Oswald", sans-serif;
+  margin-bottom: 30px ;
+}
+.hero__title span{
+  color: #A59678;
+}
+.hero___textContent{
+  color: #fff;
+ 
+}
+.hero___textContent p{
+  font-family: "Roboto", sans-serif;
+  font-weight: lighter;
+ 
+ 
+}
+p{
+  line-height: 1.5rem;
+}
+.hero__text--btn{
+  background-color: #A59678;
+  border: none;
+  font-family: "Oswald", sans-serif;
+  padding: 0.8em ;
+  border-radius: 100px;
+
+}
+.hero__text--btn a{
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+.hero___textContent p{
+  margin-bottom: 10px;
+}
+.section__one{
+  padding: 3em 0;
+  background-color: #eaedfc;
+}
+.section__one--item{
+  text-align: center;
+  margin-bottom: 30px;
+}
+.section__one--item h2{
+  color: #A59678;
+  font-family: "Oswald", sans-serif;
+  padding: 0.8em ;
+  border-radius: 100px;
+
+}
+.section__one--item p{
+ font-family: "Roboto", sans-serif;
+   
+}
+
+.section__two{
+  padding: 3em 0;
+}
+.section__two--item h1{
+ color: #A59678;
+}
+.section__two--item p{
+  font-family: "Roboto", sans-serif;
+}
+.section__two img{
+  margin-bottom: 30px;
+}
+
+.item-three-content{
+  background-color: #2E323F;
+  padding: 2em;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #fff;
+  
+}
+
+.item-three-content p{
+  font-family: "Roboto", sans-serif; 
+}
+footer{
+  padding: 3em 0;
+  background-color: #2E323F;
+  color: #fff;
+  text-align: center;
+}
+.footer__title-item{
+  padding: 2em 0;
+}
+
+.footer__title-item h4{
+  color: #A59678;
+  margin-bottom: 20px;
+}
+h1,h2,h3,h4,h5{
+  font-family: "Oswald", sans-serif;
+}
+@media (min-width:700px){
+  .container{
+    max-width: 1200px;
+  }
+  .row{
+    display: flex;
+    gap: 30px;
+  
+ 
+  }  
+  .nav__list--all{
+    display: flex;
+    font-family: "Oswald", sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    gap: 20px;
+    
+  }
+  .nav__list--btn{ 
+    display: none ;
+
+  }
+  .header{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .logo{
+    margin: 0;
+    padding: 0;
+  }
+  .hero__title{
+    font-family: "Oswald", sans-serif;
+    font-size: 90px;
+    line-height: 1em;
+    margin-bottom: 30px ;
+  }
+  .nav__list--primary{
+    display: flex;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+    gap: 20px;  }
+    
+  .nav__list--secondary{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+  }
+  .hero___textContent p{
+  font-family: "Roboto", sans-serif;
+  font-weight: lighter;
+  font-size: 24px;
+  line-height: 2rem;
+  
+ 
+}
+  .hero__title{
+    width: 100%;
+  }
+  img{
+    min-width: 300px;
+  }
+  .hero___textContent{
+    width: 70%;
+
+  }
+  .hero .row{
+    align-items: end;
+  }
+  .hero__text--btn{
+font-size: 24px;
+  
+  }
+  .section__one--item h2{
+    font-size: 30px;
+  }
+ h1{
+    font-size: 36px;
+  }
+  p{
+    font-size: 18px;
+  }
+  .footer__title-item.one{
+    text-align: start;
+    width: 50%;
+  }
+}
